@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -X PUT -u 'user:password' 'https://search-datamass-amowh3utbvohruqg7ycouy7p7y.eu-central-1.es.amazonaws.com/jeopardy/_doc/1' -d '@./out/question-0.json' -H 'Content-Type: application/json'
